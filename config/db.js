@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 export const ConnectMongoDB = () => {
-    mongoose.connect(process.env.MONGODB_URI, {
+    mongoose.connect("mongodb+srv://clavijomo:12345@prueba.nuapb.mongodb.net/", {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
